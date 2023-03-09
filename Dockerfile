@@ -22,6 +22,6 @@ ENV NODE_ENV production
 # Expose port 3000 for the application
 EXPOSE 3000
 
-# Start the application when the container starts
+# Start the application when the container starts.
 CMD ["npm", "start"]
 
